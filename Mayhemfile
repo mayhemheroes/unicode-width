@@ -1,0 +1,6 @@
+project: unicode-width
+target: unicodewidth-fuzz
+
+cmds:
+    - cmd: ./unicodewidth-fuzz
+      libfuzzer: true
